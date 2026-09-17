@@ -1,7 +1,5 @@
 {
-  "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "agent-starter",
-  "main": "src/server.ts",
+  "name": "socket",
   "compatibility_date": "2026-06-11",
   "compatibility_flags": ["nodejs_compat"],
   "ai": { "binding": "AI", "remote": true },
@@ -13,8 +11,8 @@
   "durable_objects": {
     "bindings": [
       {
-        "class_name": "VoiceAgent",
-        "name": "VoiceAgent"
+        "class_name": "ChatAgent",
+        "name": "ChatAgent"
       }
     ]
   },
